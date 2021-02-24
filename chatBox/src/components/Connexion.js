@@ -7,7 +7,6 @@ class Connexion extends React.Component {
         event.preventDefault();
         const pseudo = this.pseudoInput.value;
         this.props.history.push(`/pseudo/${pseudo}`);
-
     };
 
     render() {
